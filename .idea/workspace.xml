@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9f5938b-1a4e-4e26-9033-8e0daba7ca93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umg/principal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umg/principal/reportes/pruebas.java" afterDir="false" />
+    <list default="true" id="b9f5938b-1a4e-4e26-9033-8e0daba7ca93" name="Changes" comment="Prueba">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EdgarFive"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EdgarFive/Tarea_Generar_PDF.git",
+    "accountId": "b26ef9a6-b77d-4220-af3c-c2db8ea10043"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -91,12 +97,34 @@
       <updated>1727505690191</updated>
       <workItem from="1727505691264" duration="527000" />
       <workItem from="1727536271320" duration="6242000" />
-      <workItem from="1727751756928" duration="5628000" />
+      <workItem from="1727751756928" duration="6008000" />
     </task>
+    <task id="LOCAL-00001" summary="Ya terminé casi todo. Solo me queda pendiente lo de que solo se pueda eliminar productos que tengan existencias en 0.">
+      <option name="closed" value="true" />
+      <created>1727757511306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727757511306</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Prueba">
+      <option name="closed" value="true" />
+      <created>1727757737332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727757737332</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ya terminé casi todo. Solo me queda pendiente lo de que solo se pueda eliminar productos que tengan existencias en 0." />
+    <MESSAGE value="Prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

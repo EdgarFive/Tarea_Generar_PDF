@@ -37,31 +37,6 @@ public class ProductoDAO {
         return null;
     }
 
-    public String opciondeconsulta(String opcion) throws SQLException {
-        String sql = "SELECT * FROM tb_producto WHERE id_producto;";
-        switch (opcion) {
-            case "Todos los productos":
-                sql = "SELECT * FROM tb_producto WHERE id_producto;";
-                break;
-            case "Precios menores a Q100.00":
-                 sql = "SELECT * FROM tb_producto WHERE  precio < 100;";
-                break;
-            case "Productos con menos de 30 existencias":
-                sql = "SELECT * FROM tb_producto WHERE cantidad < 30;";
-                break;
-            case "Productos Con precios entre 200 y 400":
-                sql = "SELECT * FROM tb_producto WHERE precio BETWEEN 200 AND 400;";
-                break;
-            case "Productos ordenandos de mayor a menor precio":
-                sql = "SELECT * FROM tb_producto ORDER BY precio DESC;";
-                break;
-            case "Productos de menor a mayor existencias":
-                sql = "SELECT * FROM tb_producto ORDER BY cantidad ASC;";
-                break;
-
-        }
-        return sql;
-    };
 
 
     public List<Producto> obtenerTodos() throws SQLException {
@@ -90,6 +65,33 @@ public class ProductoDAO {
         }
         return productos;
     }
+
+    public String opciondeconsulta(String opcion) throws SQLException {
+        String sql = "SELECT * FROM tb_producto WHERE id_producto;";
+        switch (opcion) {
+            case "Todos los productos":
+                sql = "SELECT * FROM tb_producto WHERE id_producto;";
+                break;
+            case "Precios menores a Q100.00":
+                sql = "SELECT * FROM tb_producto WHERE  precio < 100;";
+                break;
+            case "Productos con menos de 30 existencias":
+                sql = "SELECT * FROM tb_producto WHERE cantidad < 30;";
+                break;
+            case "Productos Con precios entre 200 y 400":
+                sql = "SELECT * FROM tb_producto WHERE precio BETWEEN 200 AND 400;";
+                break;
+            case "Productos ordenandos de mayor a menor precio":
+                sql = "SELECT * FROM tb_producto ORDER BY precio DESC;";
+                break;
+            case "Productos de menor a mayor existencias":
+                sql = "SELECT * FROM tb_producto ORDER BY cantidad ASC;";
+                break;
+
+        }
+        return sql;
+    };
+
 
     public void actualizar(Producto producto) throws SQLException {
         String sql = "UPDATE tb_producto SET descripcion = ?, origen = ? WHERE id_producto = ?";
